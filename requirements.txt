@@ -1,7 +1,7 @@
 deepdiff
 torch==2.2.0+cu121
 --extra-index-url https://download.pytorch.org/whl/cu121
-numpy
+numpy<2
 Pillow
 pynvml; platform_machine != 'aarch64'
 py-cpuinfo
